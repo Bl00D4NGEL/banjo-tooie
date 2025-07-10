@@ -2616,59 +2616,59 @@ segments:
     start: 0x01F59530
     extract: False
   - name: baalarm
-    dir: overlays/baalarm
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F59590
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, baalarm]
+      - [auto, c, alarm]
   - name: baattach_header
     dir: overlays/baattach
     type: bin
     start: 0x01F59880
     extract: False
   - name: baattach
-    dir: overlays/baattach
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F598F0
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, baattach]
+      - [auto, c, attach]
   - name: bababykaz_header
     dir: overlays/bababykaz
     type: bin
     start: 0x01F599C0
     extract: False
   - name: bababykaz
-    dir: overlays/bababykaz
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F59A50
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, bababykaz]
+      - [auto, c, bykaz]
   - name: babackpack_header
     dir: overlays/babackpack
     type: bin
     start: 0x01F59ED0
     extract: False
   - name: babackpack
-    dir: overlays/babackpack
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F59F70
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, babackpack]
+      - [auto, c, ckpack]
   - name: babee_header
     dir: overlays/babee
     type: bin
     start: 0x01F5A6E0
     extract: False
   - name: babee
-    dir: overlays/babee
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5A760
@@ -2677,17 +2677,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5A760, c, babee]
-      - [0x01F5AAE0, .rodata, babee]
-      - [0x01F5AAF0, data, babee]
-      - [0x01F5AB30, bss, babee]
+      - [0x01F5A760, c, bee]
+      - [0x01F5AAE0, .rodata, bee]
+      - [0x01F5AAF0, data, bee]
+      - [0x01F5AB30, bss, bee]
   - name: baboost_header
     dir: overlays/baboost
     type: bin
     start: 0x01F5AB30
     extract: False
   - name: baboost
-    dir: overlays/baboost
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5AB90
@@ -2696,43 +2696,43 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5AB90, c, baboost]
-      - [0x01F5AF30, .rodata, baboost]
-      - [0x01F5AF30, data, baboost]
-      - [0x01F5AF30, bss, baboost]
+      - [0x01F5AB90, c, boost]
+      - [0x01F5AF30, .rodata, boost]
+      - [0x01F5AF30, data, boost]
+      - [0x01F5AF30, bss, boost]
   - name: babounce_header
     dir: overlays/babounce
     type: bin
     start: 0x01F5AF30
     extract: False
   - name: babounce
-    dir: overlays/babounce
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5AFC0
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, babounce]
+      - [auto, c, bounce]
   - name: bacough_header
     dir: overlays/bacough
     type: bin
     start: 0x01F5B680
     extract: False
   - name: bacough
-    dir: overlays/bacough
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5B700
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, bacough]
+      - [auto, c, cough]
   - name: badata_header
     dir: overlays/badata
     type: bin
     start: 0x01F5B9F0
     extract: False
   - name: badata
-    dir: overlays/badata
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5BC80
@@ -2741,17 +2741,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5BC80, c, badata]
-      - [0x01F5CC40, .rodata, badata]
-      - [0x01F5CCE0, data, badata]
-      - [0x01F5E480, bss, badata]
+      - [0x01F5BC80, c, data]
+      - [0x01F5CC40, .rodata, data]
+      - [0x01F5CCE0, data, data]
+      - [0x01F5E480, bss, data]
   - name: bapackctrl_header
     dir: overlays/bapackctrl
     type: bin
     start: 0x01F5E480
     extract: False
   - name: bapackctrl
-    dir: overlays/bapackctrl
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5E500
@@ -2760,30 +2760,30 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5E500, c, bapackctrl]
-      - [0x01F5E880, .rodata, bapackctrl]
-      - [0x01F5E8A0, data, bapackctrl]
-      - [0x01F5E8A0, bss, bapackctrl]
+      - [0x01F5E500, c, packctrl]
+      - [0x01F5E880, .rodata, packctrl]
+      - [0x01F5E8A0, data, packctrl]
+      - [0x01F5E8A0, bss, packctrl]
   - name: babuzz_header
     dir: overlays/babuzz
     type: bin
     start: 0x01F5E8A0
     extract: False
   - name: babuzz
-    dir: overlays/babuzz
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5E910
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, babuzz]
+      - [auto, c, buzz]
   - name: badialog_header
     dir: overlays/badialog
     type: bin
     start: 0x01F5EBF0
     extract: False
   - name: badialog
-    dir: overlays/badialog
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5EC50
@@ -2792,17 +2792,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5EC50, c, badialog]
-      - [0x01F5EDA0, .rodata, badialog]
-      - [0x01F5EDA0, data, badialog]
-      - [0x01F5EDA0, bss, badialog]
+      - [0x01F5EC50, c, dialog]
+      - [0x01F5EDA0, .rodata, dialog]
+      - [0x01F5EDA0, data, dialog]
+      - [0x01F5EDA0, bss, dialog]
   - name: badrone_header
     dir: overlays/badrone
     type: bin
     start: 0x01F5EDA0
     extract: False
   - name: badrone
-    dir: overlays/badrone
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5EE90
@@ -2811,17 +2811,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5EE90, c, badrone]
-      - [0x01F5F4C0, .rodata, badrone]
-      - [0x01F5F4C0, data, badrone]
-      - [0x01F5F4D0, bss, badrone]
+      - [0x01F5EE90, c, drone]
+      - [0x01F5F4C0, .rodata, drone]
+      - [0x01F5F4C0, data, drone]
+      - [0x01F5F4D0, bss, drone]
   - name: badronemem_header
     dir: overlays/badronemem
     type: bin
     start: 0x01F5F4D0
     extract: False
   - name: badronemem
-    dir: overlays/badronemem
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5F530
@@ -2830,17 +2830,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5F530, c, badronemem]
-      - [0x01F5F5A0, .rodata, badronemem]
-      - [0x01F5F5A0, data, badronemem]
-      - [0x01F5F5A0, bss, badronemem]
+      - [0x01F5F530, c, dronemem]
+      - [0x01F5F5A0, .rodata, dronemem]
+      - [0x01F5F5A0, data, dronemem]
+      - [0x01F5F5A0, bss, dronemem]
   - name: baduo_header
     dir: overlays/baduo
     type: bin
     start: 0x01F5F5A0
     extract: False
   - name: baduo
-    dir: overlays/baduo
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F5F680
@@ -2849,17 +2849,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F5F680, c, baduo]
-      - [0x01F60360, .rodata, baduo]
-      - [0x01F60370, data, baduo]
-      - [0x01F60370, bss, baduo]
+      - [0x01F5F680, c, duo]
+      - [0x01F60360, .rodata, duo]
+      - [0x01F60370, data, duo]
+      - [0x01F60370, bss, duo]
   - name: badust_header
     dir: overlays/badust
     type: bin
     start: 0x01F60370
     extract: False
   - name: badust
-    dir: overlays/badust
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F60450
@@ -2868,17 +2868,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F60450, c, badust]
-      - [0x01F610C0, .rodata, badust]
-      - [0x01F61100, data, badust]
-      - [0x01F61110, bss, badust]
+      - [0x01F60450, c, dust]
+      - [0x01F610C0, .rodata, dust]
+      - [0x01F61100, data, dust]
+      - [0x01F61110, bss, dust]
   - name: baeggsetup_header
     dir: overlays/baeggsetup
     type: bin
     start: 0x01F61110
     extract: False
   - name: baeggsetup
-    dir: overlays/baeggsetup
+    dir: overlays/ba/egg
     type: code
     vram: 0x80800000
     start: 0x01F611E0
@@ -2887,17 +2887,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F611E0, c, baeggsetup]
-      - [0x01F619C0, .rodata, baeggsetup]
-      - [0x01F61A40, data, baeggsetup]
-      - [0x01F61A50, bss, baeggsetup]
+      - [0x01F611E0, c, setup]
+      - [0x01F619C0, .rodata, setup]
+      - [0x01F61A40, data, setup]
+      - [0x01F61A50, bss, setup]
   - name: baeggaim_header
     dir: overlays/baeggaim
     type: bin
     start: 0x01F61A50
     extract: False
   - name: baeggaim
-    dir: overlays/baeggaim
+    dir: overlays/ba/egg
     type: code
     vram: 0x80800000
     start: 0x01F61AC0
@@ -2906,17 +2906,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F61AC0, c, baeggaim]
-      - [0x01F61F30, .rodata, baeggaim]
-      - [0x01F61F40, data, baeggaim]
-      - [0x01F61F40, bss, baeggaim]
+      - [0x01F61AC0, c, aim]
+      - [0x01F61F30, .rodata, aim]
+      - [0x01F61F40, data, aim]
+      - [0x01F61F40, bss, aim]
   - name: baeggcursor_header
     dir: overlays/baeggcursor
     type: bin
     start: 0x01F61F40
     extract: False
   - name: baeggcursor
-    dir: overlays/baeggcursor
+    dir: overlays/ba/egg
     type: code
     vram: 0x80800000
     start: 0x01F61FF0
@@ -2925,17 +2925,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F61FF0, c, baeggcursor]
-      - [0x01F62630, .rodata, baeggcursor]
-      - [0x01F62660, data, baeggcursor]
-      - [0x01F62690, bss, baeggcursor]
+      - [0x01F61FF0, c, cursor]
+      - [0x01F62630, .rodata, cursor]
+      - [0x01F62660, data, cursor]
+      - [0x01F62690, bss, cursor]
   - name: baeggfire_header
     dir: overlays/baeggfire
     type: bin
     start: 0x01F62690
     extract: False
   - name: baeggfire
-    dir: overlays/baeggfire
+    dir: overlays/ba/egg
     type: code
     vram: 0x80800000
     start: 0x01F62740
@@ -2944,17 +2944,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F62740, c, baeggfire]
-      - [0x01F62DC0, .rodata, baeggfire]
-      - [0x01F62DE0, data, baeggfire]
-      - [0x01F62DE0, bss, baeggfire]
+      - [0x01F62740, c, fire]
+      - [0x01F62DC0, .rodata, fire]
+      - [0x01F62DE0, data, fire]
+      - [0x01F62DE0, bss, fire]
   - name: baflameline_header
     dir: overlays/baflameline
     type: bin
     start: 0x01F62DE0
     extract: False
   - name: baflameline
-    dir: overlays/baflameline
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F62E80
@@ -2963,17 +2963,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F62E80, c, baflameline]
-      - [0x01F63550, .rodata, baflameline]
-      - [0x01F63570, data, baflameline]
-      - [0x01F63630, bss, baflameline]
+      - [0x01F62E80, c, flameline]
+      - [0x01F63550, .rodata, flameline]
+      - [0x01F63570, data, flameline]
+      - [0x01F63630, bss, flameline]
   - name: baflamethrower_header
     dir: overlays/baflamethrower
     type: bin
     start: 0x01F63630
     extract: False
   - name: baflamethrower
-    dir: overlays/baflamethrower
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F636B0
@@ -2982,17 +2982,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F636B0, c, baflamethrower]
-      - [0x01F63950, .rodata, baflamethrower]
-      - [0x01F63950, data, baflamethrower]
-      - [0x01F63950, bss, baflamethrower]
+      - [0x01F636B0, c, flamethrower]
+      - [0x01F63950, .rodata, flamethrower]
+      - [0x01F63950, data, flamethrower]
+      - [0x01F63950, bss, flamethrower]
   - name: bafly_header
     dir: overlays/bafly
     type: bin
     start: 0x01F63950
     extract: False
   - name: bafly
-    dir: overlays/bafly
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F63A20
@@ -3001,17 +3001,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F63A20, c, bafly]
-      - [0x01F647B0, .rodata, bafly]
-      - [0x01F647E0, data, bafly]
-      - [0x01F647E0, bss, bafly]
+      - [0x01F63A20, c, fly]
+      - [0x01F647B0, .rodata, fly]
+      - [0x01F647E0, data, fly]
+      - [0x01F647E0, bss, fly]
   - name: bafpctrl_header
     dir: overlays/bafpctrl
     type: bin
     start: 0x01F647E0
     extract: False
   - name: bafpctrl
-    dir: overlays/bafpctrl
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F648F0
@@ -3020,17 +3020,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F648F0, c, bafpctrl]
-      - [0x01F65980, .rodata, bafpctrl]
-      - [0x01F65990, data, bafpctrl]
-      - [0x01F659D0, bss, bafpctrl]
+      - [0x01F648F0, c, fpctrl]
+      - [0x01F65980, .rodata, fpctrl]
+      - [0x01F65990, data, fpctrl]
+      - [0x01F659D0, bss, fpctrl]
   - name: bahold_header
     dir: overlays/bahold
     type: bin
     start: 0x01F659D0
     extract: False
   - name: bahold
-    dir: overlays/bahold
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F65A40
@@ -3039,17 +3039,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F65A40, c, bahold]
-      - [0x01F65C70, .rodata, bahold]
-      - [0x01F65C70, data, bahold]
-      - [0x01F65C70, bss, bahold]
+      - [0x01F65A40, c, hold]
+      - [0x01F65C70, .rodata, hold]
+      - [0x01F65C70, data, hold]
+      - [0x01F65C70, bss, hold]
   - name: bahitspline_header
     dir: overlays/bahitspline
     type: bin
     start: 0x01F65C70
     extract: False
   - name: bahitspline
-    dir: overlays/bahitspline
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F65CD0
@@ -3058,17 +3058,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F65CD0, c, bahitspline]
-      - [0x01F65E00, .rodata, bahitspline]
-      - [0x01F65E10, data, bahitspline]
-      - [0x01F65E10, bss, bahitspline]
+      - [0x01F65CD0, c, hitspline]
+      - [0x01F65E00, .rodata, hitspline]
+      - [0x01F65E10, data, hitspline]
+      - [0x01F65E10, bss, hitspline]
   - name: bakaztorpedo_header
     dir: overlays/bakaztorpedo
     type: bin
     start: 0x01F65E10
     extract: False
   - name: bakaztorpedo
-    dir: overlays/bakaztorpedo
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F65E90
@@ -3077,17 +3077,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F65E90, c, bakaztorpedo]
-      - [0x01F662A0, .rodata, bakaztorpedo]
-      - [0x01F662B0, data, bakaztorpedo]
-      - [0x01F662D0, bss, bakaztorpedo]
+      - [0x01F65E90, c, kaztorpedo]
+      - [0x01F662A0, .rodata, kaztorpedo]
+      - [0x01F662B0, data, kaztorpedo]
+      - [0x01F662D0, bss, kaztorpedo]
   - name: bamovegoto_header
     dir: overlays/bamovegoto
     type: bin
     start: 0x01F662D0
     extract: False
   - name: bamovegoto
-    dir: overlays/bamovegoto
+    dir: overlays/ba/move
     type: code
     vram: 0x80800000
     start: 0x01F66380
@@ -3096,17 +3096,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F66380, c, bamovegoto]
-      - [0x01F66960, .rodata, bamovegoto]
-      - [0x01F66980, data, bamovegoto]
-      - [0x01F66980, bss, bamovegoto]
+      - [0x01F66380, c, goto]
+      - [0x01F66960, .rodata, goto]
+      - [0x01F66980, data, goto]
+      - [0x01F66980, bss, goto]
   - name: bamovehover_header
     dir: overlays/bamovehover
     type: bin
     start: 0x01F66980
     extract: False
   - name: bamovehover
-    dir: overlays/bamovehover
+    dir: overlays/ba/move
     type: code
     vram: 0x80800000
     start: 0x01F669E0
@@ -3115,17 +3115,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F669E0, c, bamovehover]
-      - [0x01F66C20, .rodata, bamovehover]
-      - [0x01F66C20, data, bamovehover]
-      - [0x01F66C20, bss, bamovehover]
+      - [0x01F669E0, c, hover]
+      - [0x01F66C20, .rodata, hover]
+      - [0x01F66C20, data, hover]
+      - [0x01F66C20, bss, hover]
   - name: bamoveledge_header
     dir: overlays/bamoveledge
     type: bin
     start: 0x01F66C20
     extract: False
   - name: bamoveledge
-    dir: overlays/bamoveledge
+    dir: overlays/ba/move
     type: code
     vram: 0x80800000
     start: 0x01F66C80
@@ -3134,17 +3134,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F66C80, c, bamoveledge]
-      - [0x01F66D00, .rodata, bamoveledge]
-      - [0x01F66D00, data, bamoveledge]
-      - [0x01F66D00, bss, bamoveledge]
+      - [0x01F66C80, c, ledge]
+      - [0x01F66D00, .rodata, ledge]
+      - [0x01F66D00, data, ledge]
+      - [0x01F66D00, bss, ledge]
   - name: bamovespline_header
     dir: overlays/bamovespline
     type: bin
     start: 0x01F66D00
     extract: False
   - name: bamovespline
-    dir: overlays/bamovespline
+    dir: overlays/ba/move
     type: code
     vram: 0x80800000
     start: 0x01F66D90
@@ -3153,17 +3153,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F66D90, c, bamovespline]
-      - [0x01F67560, .rodata, bamovespline]
-      - [0x01F67560, data, bamovespline]
-      - [0x01F67560, bss, bamovespline]
+      - [0x01F66D90, c, spline]
+      - [0x01F67560, .rodata, spline]
+      - [0x01F67560, data, spline]
+      - [0x01F67560, bss, spline]
   - name: bamovethrust_header
     dir: overlays/bamovethrust
     type: bin
     start: 0x01F67560
     extract: False
   - name: bamovethrust
-    dir: overlays/bamovethrust
+    dir: overlays/ba/move
     type: code
     vram: 0x80800000
     start: 0x01F675D0
@@ -3172,17 +3172,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F675D0, c, bamovethrust]
-      - [0x01F67780, .rodata, bamovethrust]
-      - [0x01F67780, data, bamovethrust]
-      - [0x01F67780, bss, bamovethrust]
+      - [0x01F675D0, c, thrust]
+      - [0x01F67780, .rodata, thrust]
+      - [0x01F67780, data, thrust]
+      - [0x01F67780, bss, thrust]
   - name: bamum_header
     dir: overlays/bamum
     type: bin
     start: 0x01F67780
     extract: False
   - name: bamum
-    dir: overlays/bamum
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F677F0
@@ -3191,17 +3191,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F677F0, c, bamum]
-      - [0x01F67A70, .rodata, bamum]
-      - [0x01F67A70, data, bamum]
-      - [0x01F67AA0, bss, bamum]
+      - [0x01F677F0, c, mum]
+      - [0x01F67A70, .rodata, mum]
+      - [0x01F67A70, data, mum]
+      - [0x01F67AA0, bss, mum]
   - name: bapreload_header
     dir: overlays/bapreload
     type: bin
     start: 0x01F67AA0
     extract: False
   - name: bapreload
-    dir: overlays/bapreload
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F67B30
@@ -3210,17 +3210,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F67B30, c, bapreload]
-      - [0x01F67D80, .rodata, bapreload]
-      - [0x01F67DD0, data, bapreload]
-      - [0x01F67E60, bss, bapreload]
+      - [0x01F67B30, c, preload]
+      - [0x01F67D80, .rodata, preload]
+      - [0x01F67DD0, data, preload]
+      - [0x01F67E60, bss, preload]
   - name: bapulse_header
     dir: overlays/bapulse
     type: bin
     start: 0x01F67E60
     extract: False
   - name: bapulse
-    dir: overlays/bapulse
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F67EC0
@@ -3229,17 +3229,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F67EC0, c, bapulse]
-      - [0x01F68010, .rodata, bapulse]
-      - [0x01F68010, data, bapulse]
-      - [0x01F68010, bss, bapulse]
+      - [0x01F67EC0, c, pulse]
+      - [0x01F68010, .rodata, pulse]
+      - [0x01F68010, data, pulse]
+      - [0x01F68010, bss, pulse]
   - name: bareact_header
     dir: overlays/bareact
     type: bin
     start: 0x01F68010
     extract: False
   - name: bareact
-    dir: overlays/bareact
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F68070
@@ -3248,17 +3248,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F68070, c, bareact]
-      - [0x01F68120, .rodata, bareact]
-      - [0x01F68120, data, bareact]
-      - [0x01F68230, bss, bareact]
+      - [0x01F68070, c, react]
+      - [0x01F68120, .rodata, react]
+      - [0x01F68120, data, react]
+      - [0x01F68230, bss, react]
   - name: basetup_header
     dir: overlays/basetup
     type: bin
     start: 0x01F68230
     extract: False
   - name: basetup
-    dir: overlays/basetup
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F682B0
@@ -3267,17 +3267,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F682B0, c, basetup]
-      - [0x01F68DE0, .rodata, basetup]
-      - [0x01F68DF0, data, basetup]
-      - [0x01F68DF0, bss, basetup]
+      - [0x01F682B0, c, setup]
+      - [0x01F68DE0, .rodata, setup]
+      - [0x01F68DF0, data, setup]
+      - [0x01F68DF0, bss, setup]
   - name: bashake_header
     dir: overlays/bashake
     type: bin
     start: 0x01F68DF0
     extract: False
   - name: bashake
-    dir: overlays/bashake
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F68E50
@@ -3286,17 +3286,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F68E50, c, bashake]
-      - [0x01F68F50, .rodata, bashake]
-      - [0x01F68F50, data, bashake]
-      - [0x01F68FC0, bss, bashake]
+      - [0x01F68E50, c, shake]
+      - [0x01F68F50, .rodata, shake]
+      - [0x01F68F50, data, shake]
+      - [0x01F68FC0, bss, shake]
   - name: bashoes_header
     dir: overlays/bashoes
     type: bin
     start: 0x01F68FC0
     extract: False
   - name: bashoes
-    dir: overlays/bashoes
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F690D0
@@ -3305,17 +3305,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F690D0, c, bashoes]
-      - [0x01F69B70, .rodata, bashoes]
-      - [0x01F69BA0, data, bashoes]
-      - [0x01F69CF0, bss, bashoes]
+      - [0x01F690D0, c, shoes]
+      - [0x01F69B70, .rodata, shoes]
+      - [0x01F69BA0, data, shoes]
+      - [0x01F69CF0, bss, shoes]
   - name: bashoessuck_header
     dir: overlays/bashoessuck
     type: bin
     start: 0x01F69CF0
     extract: False
   - name: bashoessuck
-    dir: overlays/bashoessuck
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F69D70
@@ -3324,17 +3324,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F69D70, c, bashoessuck]
-      - [0x01F6A4A0, .rodata, bashoessuck]
-      - [0x01F6A4B0, data, bashoessuck]
-      - [0x01F6A580, bss, bashoessuck]
+      - [0x01F69D70, c, shoessuck]
+      - [0x01F6A4A0, .rodata, shoessuck]
+      - [0x01F6A4B0, data, shoessuck]
+      - [0x01F6A580, bss, shoessuck]
   - name: basquash_header
     dir: overlays/basquash
     type: bin
     start: 0x01F6A580
     extract: False
   - name: basquash
-    dir: overlays/basquash
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6A640
@@ -3343,17 +3343,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6A640, c, basquash]
-      - [0x01F6AC70, .rodata, basquash]
-      - [0x01F6ACF0, data, basquash]
-      - [0x01F6AD30, bss, basquash]
+      - [0x01F6A640, c, squash]
+      - [0x01F6AC70, .rodata, squash]
+      - [0x01F6ACF0, data, squash]
+      - [0x01F6AD30, bss, squash]
   - name: basnowball_header
     dir: overlays/basnowball
     type: bin
     start: 0x01F6AD30
     extract: False
   - name: basnowball
-    dir: overlays/basnowball
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6AE20
@@ -3362,17 +3362,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6AE20, c, basnowball]
-      - [0x01F6BE10, .rodata, basnowball]
-      - [0x01F6BE40, data, basnowball]
-      - [0x01F6BF60, bss, basnowball]
+      - [0x01F6AE20, c, snowll]
+      - [0x01F6BE10, .rodata, snowll]
+      - [0x01F6BE40, data, snowll]
+      - [0x01F6BF60, bss, snowll]
   - name: baspin_header
     dir: overlays/baspin
     type: bin
     start: 0x01F6BF60
     extract: False
   - name: baspin
-    dir: overlays/baspin
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6BFB0
@@ -3381,17 +3381,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6BFB0, c, baspin]
-      - [0x01F6C370, .rodata, baspin]
-      - [0x01F6C370, data, baspin]
-      - [0x01F6C370, bss, baspin]
+      - [0x01F6BFB0, c, spin]
+      - [0x01F6C370, .rodata, spin]
+      - [0x01F6C370, data, spin]
+      - [0x01F6C370, bss, spin]
   - name: bastatemem_header
     dir: overlays/bastatemem
     type: bin
     start: 0x01F6C370
     extract: False
   - name: bastatemem
-    dir: overlays/bastatemem
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6C3D0
@@ -3400,17 +3400,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6C3D0, c, bastatemem]
-      - [0x01F6C440, .rodata, bastatemem]
-      - [0x01F6C440, data, bastatemem]
-      - [0x01F6C440, bss, bastatemem]
+      - [0x01F6C3D0, c, statemem]
+      - [0x01F6C440, .rodata, statemem]
+      - [0x01F6C440, data, statemem]
+      - [0x01F6C440, bss, statemem]
   - name: basub_header
     dir: overlays/basub
     type: bin
     start: 0x01F6C440
     extract: False
   - name: basub
-    dir: overlays/basub
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6C510
@@ -3419,17 +3419,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6C510, c, basub]
-      - [0x01F6D100, .rodata, basub]
-      - [0x01F6D120, data, basub]
-      - [0x01F6D160, bss, basub]
+      - [0x01F6C510, c, sub]
+      - [0x01F6D100, .rodata, sub]
+      - [0x01F6D120, data, sub]
+      - [0x01F6D160, bss, sub]
   - name: basudie_header
     dir: overlays/basudie
     type: bin
     start: 0x01F6D160
     extract: False
   - name: basudie
-    dir: overlays/basudie
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6D1E0
@@ -3438,17 +3438,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6D1E0, c, basudie]
-      - [0x01F6D700, .rodata, basudie]
-      - [0x01F6D700, data, basudie]
-      - [0x01F6D700, bss, basudie]
+      - [0x01F6D1E0, c, sudie]
+      - [0x01F6D700, .rodata, sudie]
+      - [0x01F6D700, data, sudie]
+      - [0x01F6D700, bss, sudie]
   - name: baswim_header
     dir: overlays/baswim
     type: bin
     start: 0x01F6D700
     extract: False
   - name: baswim
-    dir: overlays/baswim
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6D790
@@ -3457,43 +3457,43 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6D790, c, baswim]
-      - [0x01F6DD50, .rodata, baswim]
-      - [0x01F6DD60, data, baswim]
-      - [0x01F6DD60, bss, baswim]
+      - [0x01F6D790, c, swim]
+      - [0x01F6DD50, .rodata, swim]
+      - [0x01F6DD60, data, swim]
+      - [0x01F6DD60, bss, swim]
   - name: batimer_header
     dir: overlays/batimer
     type: bin
     start: 0x01F6DD60
     extract: False
   - name: batimer
-    dir: overlays/batimer
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6DDD0
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, batimer]
+      - [auto, c, timer]
   - name: batranslate_header
     dir: overlays/batranslate
     type: bin
     start: 0x01F6E0D0
     extract: False
   - name: batranslate
-    dir: overlays/batranslate
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6E130
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, batranslate]
+      - [auto, c, translate]
   - name: bavan_header
     dir: overlays/bavan
     type: bin
     start: 0x01F6E350
     extract: False
   - name: bavan
-    dir: overlays/bavan
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6E3C0
@@ -3502,17 +3502,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6E3C0, c, bavan]
-      - [0x01F6E6B0, .rodata, bavan]
-      - [0x01F6E6B0, data, bavan]
-      - [0x01F6E6C0, bss, bavan]
+      - [0x01F6E3C0, c, van]
+      - [0x01F6E6B0, .rodata, van]
+      - [0x01F6E6B0, data, van]
+      - [0x01F6E6C0, bss, van]
   - name: bawandglow_header
     dir: overlays/bawandglow
     type: bin
     start: 0x01F6E6C0
     extract: False
   - name: bawandglow
-    dir: overlays/bawandglow
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6E730
@@ -3521,17 +3521,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6E730, c, bawandglow]
-      - [0x01F6E8F0, .rodata, bawandglow]
-      - [0x01F6E8F0, data, bawandglow]
-      - [0x01F6E8F0, bss, bawandglow]
+      - [0x01F6E730, c, wandglow]
+      - [0x01F6E8F0, .rodata, wandglow]
+      - [0x01F6E8F0, data, wandglow]
+      - [0x01F6E8F0, bss, wandglow]
   - name: bawasher_header
     dir: overlays/bawasher
     type: bin
     start: 0x01F6E8F0
     extract: False
   - name: bawasher
-    dir: overlays/bawasher
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6E960
@@ -3540,30 +3540,30 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6E960, c, bawasher]
-      - [0x01F6ED40, .rodata, bawasher]
-      - [0x01F6ED40, data, bawasher]
-      - [0x01F6ED40, bss, bawasher]
+      - [0x01F6E960, c, washer]
+      - [0x01F6ED40, .rodata, washer]
+      - [0x01F6ED40, data, washer]
+      - [0x01F6ED40, bss, washer]
   - name: bawobble_header
     dir: overlays/bawobble
     type: bin
     start: 0x01F6ED40
     extract: False
   - name: bawobble
-    dir: overlays/bawobble
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6EDD0
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, bawobble]
+      - [auto, c, wobble]
   - name: bamotor_header
     dir: overlays/bamotor
     type: bin
     start: 0x01F6F1C0
     extract: False
   - name: bamotor
-    dir: overlays/bamotor
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6F210
@@ -3572,17 +3572,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6F210, c, bamotor]
-      - [0x01F6F310, .rodata, bamotor]
-      - [0x01F6F310, data, bamotor]
-      - [0x01F6F310, bss, bamotor]
+      - [0x01F6F210, c, motor]
+      - [0x01F6F310, .rodata, motor]
+      - [0x01F6F310, data, motor]
+      - [0x01F6F310, bss, motor]
   - name: bainvisible_header
     dir: overlays/bainvisible
     type: bin
     start: 0x01F6F310
     extract: False
   - name: bainvisible
-    dir: overlays/bainvisible
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6F3D0
@@ -3591,17 +3591,17 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6F3D0, c, bainvisible]
-      - [0x01F6FD60, .rodata, bainvisible]
-      - [0x01F6FD90, data, bainvisible]
-      - [0x01F6FD90, bss, bainvisible]
+      - [0x01F6F3D0, c, invisible]
+      - [0x01F6FD60, .rodata, invisible]
+      - [0x01F6FD90, data, invisible]
+      - [0x01F6FD90, bss, invisible]
   - name: badeathmatch_header
     dir: overlays/badeathmatch
     type: bin
     start: 0x01F6FD90
     extract: False
   - name: badeathmatch
-    dir: overlays/badeathmatch
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F6FE30
@@ -3610,23 +3610,23 @@ segments:
     symbol_name_format: $VRAM_$SEG
     symbol_name_format_no_rom: $VRAM_$SEG
     subsegments: 
-      - [0x01F6FE30, c, badeathmatch]
-      - [0x01F70360, .rodata, badeathmatch]
-      - [0x01F70380, data, badeathmatch]
-      - [0x01F70390, bss, badeathmatch]
+      - [0x01F6FE30, c, deathmatch]
+      - [0x01F70360, .rodata, deathmatch]
+      - [0x01F70380, data, deathmatch]
+      - [0x01F70390, bss, deathmatch]
   - name: baairbar_header
     dir: overlays/baairbar
     type: bin
     start: 0x01F70390
     extract: False
   - name: baairbar
-    dir: overlays/baairbar
+    dir: overlays/ba
     type: code
     vram: 0x80800000
     start: 0x01F703E0
     exclusive_ram_id: overlay
     subsegments: 
-      - [auto, c, baairbar]
+      - [auto, c, airr]
   - name: cadbmgrDll_header
     dir: overlays/cadbmgrDll
     type: bin
